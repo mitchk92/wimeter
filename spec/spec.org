@@ -1,0 +1,21 @@
+* Messages
+  Messages are in UTF-8 encoded TLV
+  E.G.
+  - 24 05 11 22 33 44 55
+    Is the code 0x24 with 5 bytes of data 11 22 33 44 55
+  - E0 A4 B9 02 11 22
+    Is the code 0x939 with 2 bytes of data 11 22
+  Message ID's are reserved in Top level messages only
+  message ID's 0x00 -> 0x5F are reserved or defined
+  message ID's 0x60 -> 0x7F are for custom use
+  message ID's 0x80 -> 0x7FF are reserved or defined
+  all other message ID's are custom use
+** ID's
+   - 0x01 Info Request
+   - 0x02 Info Response
+   - 0x03 Request Data
+   - 0x04 Respond Data
+     For data requested
+   - 0x05 Broadcast Data
+     For data not requested but still sent
+     E.g. Volt meter sending reading every 0.1 second

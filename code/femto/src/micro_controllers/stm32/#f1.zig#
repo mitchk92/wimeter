@@ -1,0 +1,27 @@
+const pin = @import("pin.zig");
+
+pub fn stm32f103(comptime model: []const u8) micro_controller_info {
+    const pincount = switch (model[9]) { //package
+        'T' => 36,
+        'C' => 48,
+        'R' => 64,
+        'V' => 100,
+        'Z' => 144,
+    };
+    const memory = switch (model[10]) { //memory
+        '4' => .{ .rom = 20, .ram = 6 },
+        '6' => .{ .rom = 32, .ram = 10 },
+        '8' => .{ .rom = 64, .ram = 20 },
+        'B' => .{ .rom = 128, .ram = 20 },
+        'C' => .{ .rom = 256, .ram = 48 },
+        'D' => .{ .rom = 384, .ram = 64 },
+        'E' => .{ .rom = 512, .ram = 64 },
+        'F' => .{ .rom = 768, .ram = 96 },
+        'G' => .{ .rom = 1000, .ram = 96 },
+    };
+}
+
+const qfpn36_pins = [_]pin.pin{
+    
+
+};

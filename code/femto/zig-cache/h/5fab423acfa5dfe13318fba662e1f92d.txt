@@ -1,0 +1,15 @@
+7976 5178222 1624103844878640939 2786af2dea3b4199d4961719a86c130e /home/mitchk/wimeter/code/femto/src/vector.zig
+5588 3791711 1619753264288977338 b28e8846a1fb551a569b56fcf123a093 /home/mitchk/zig/zig/build/lib/zig/std/std.zig
+23635 4736315 1622877309930929068 00fbb8fea25ef05eeba646e26bb20cb6 /home/mitchk/zig/zig/build/lib/zig/std/builtin.zig
+18282 4736343 1622877309956928677 c0d058ca884fd934a4f43772515ed826 /home/mitchk/zig/zig/build/lib/zig/std/start.zig
+58105 4736345 1622877309956928677 c469f387be311dd300783652c63aa46e /home/mitchk/zig/zig/build/lib/zig/std/target.zig
+65799 3791662 1619753264289977331 cd20e3e508d9ff4ddd4ded31a44af8dc /home/mitchk/zig/zig/build/lib/zig/std/target/arm.zig
+55049 4736332 1622877309941928903 10a7f7ce243a9b00eec13412ab43f638 /home/mitchk/zig/zig/build/lib/zig/std/math.zig
+47037 4736334 1622877309945928843 1d2192661909773f951eface449f4c97 /home/mitchk/zig/zig/build/lib/zig/std/meta.zig
+2213 5231041 1624534097089540639 ec44c5d77383aadbc771c9850921d33a /home/mitchk/wimeter/code/femto/src/femto.zig
+183 5182878 1624534060811887207 e05fddd3bbdd70bea68a860bbbfd8c6c /home/mitchk/wimeter/code/femto/src/stm32f103.zig
+3165 5193598 1624182422831440041 8d080159fc09eb983fe0e87bd39461a5 /home/mitchk/wimeter/code/femto/src/stm32/f1/RCC.zig
+3194 5204159 1624272304559919109 b53cef358bf6c7de22a44949fea8eeb6 /home/mitchk/wimeter/code/femto/src/stm32/f1/SPI.zig
+2756 5194658 1624268592141782877 a03ad0de1f96745e1dd6cc298f80402e /home/mitchk/wimeter/code/femto/src/stm32/f1/GPIO.zig
+1550 5183285 1624148884116147322 75882f6f39c23fb1a4a24ab63892caf2 /home/mitchk/wimeter/code/femto/src/stm32/f1/memmap.zig
+76171 4736320 1622877309935928993 e42b2515d2bd2ca1a758f94674ca1b4f /home/mitchk/zig/zig/build/lib/zig/std/debug.zig
